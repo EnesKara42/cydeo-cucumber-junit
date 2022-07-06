@@ -7,7 +7,6 @@ In the class we will be able to pass pre- & post- conditions to
 
 import com.cydeo.utilities.Driver;
 import io.cucumber.java.After;
-import io.cucumber.java.AfterStep;
 import io.cucumber.java.Scenario;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -57,7 +56,7 @@ public class Hooks {
         System.out.println("--------> applying setup using @BeforeStep");
     }
 
-   @AfterStep
+   //@AfterStep
     public void afterStep() throws InterruptedException {
         Thread.sleep(2000);
         System.out.println("--------> applying tearDown using @AfterStep");
