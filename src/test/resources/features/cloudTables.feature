@@ -1,4 +1,4 @@
-@smoke
+@smoke @Regression
 Feature: DDT example with CloudTables
   @wip
   Scenario: Adding one person
