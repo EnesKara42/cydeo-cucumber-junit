@@ -10,10 +10,10 @@ import org.junit.runner.RunWith;
                 "pretty",
                 "html:target/cucumber-report.html",
                 "rerun:target/rerun.txt",
-               /* "json:target/cucumber.json",
-                "html:target/cucumber/",
+                "json:target/cucumber.json",
+                "html:target/cucumber/cucumber-report.html",
                 "junit:target/junit/junit-report.xml",
-                "rerun:target/rerun.txt"*/
+                "rerun:target/rerun.txt"
 
 
 
